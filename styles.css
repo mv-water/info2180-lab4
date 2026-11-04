@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #eef1f8;
+    background-size: 14px 14px;
+    background-image: -moz-radial-gradient(#bbbfd6 1.5px, transparent 1.5px);
+}
+
+h1, h2, h3, h4 {
+    font-family: "Bangers", system-ui, sans-serif;
+    font-weight: 400;      
+    letter-spacing: 1px;
+}
+
+header{
+    background-color: #e31313;
+    padding: 20px 32px 48px;
+    border: 4px solid #371414;
+}
+
+header h1{
+    display: block;
+    color: white;
+    margin: 0;
+    padding-top: 5px;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-shadow:
+        3px 3px 0 #371414,
+        -1px 1px 0 #371414;
+}
+
+main{
+    margin: auto;
+    padding: 20px 32px;
+    background-color: #ffe3b6;
+    border: 4px solid #371414;
+    border-top: none;
+    box-shadow: 8px 8px 0 #371414;
+}
+
+main > p{
+    margin-top: 0;
+    font-weight: 600;
+    color:#bf453c;
+    
+}
+
+main input[type=text]{
+    padding:10px;
+    border: 2px solid transparent;
+    margin-right: 12px;
+    font-size: 17px;
+    width: 50%;
+
+}
+
+main input[type=text]:focus {
+    outline: none;
+    border-color: #3c5dbf;
+}
+
+main button{
+    background-color: #3c5dbf;
+    color:#FFFFFF;
+    font-size: 17px;
+    padding:10px 20px;
+    border: none;
+    letter-spacing: 1px;
+}
+main button:hover{
+    background-color:#2d4799;
+    transform: translateY(-2px);
+}
+
+main h2 {
+    background: #e31313;
+    color: #FFFFFF;
+    padding: 4px 20px;
+    border: 3px solid #371414;
+    border-bottom: 3px solid #371414;
+    box-shadow: 4px 4px 0 #371414;
+    margin: 28px 0 14px;
+}
+
+#result {
+    background-color: #ffffff;
+    padding: 16px 20px;
+    min-height: 60px;
+    border: 4px solid #371414;
+    border-left: 4px solid #371414;
+    box-shadow: 6px 6px 0 #371414;
+}
+
+#result h3 {
+    margin: 0;
+    color: #e31313;
+    font-size: 1.7rem;
+}
+
+#result h4 {
+    margin: 4px 0 12px;
+    color: #edb430;
+    font-size: 1.2rem;
+}
+
+#result p {
+    margin: 0;
+    line-height: 1.5;
+}
+#result p#not-found {
+    color: #e31313;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+#result ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 10px;
+    line-height: 2;
+}
+
+#result ul li:before
+{
+    content: '\2605';
+
+}
+
